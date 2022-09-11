@@ -1,0 +1,304 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.gap-10{
+    gap: 10px;
+}
+
+.gap-20{
+    gap: 20px;
+}
+
+.btn{
+    padding: 10px 12px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btn-white{
+    background-color: #fff;
+    border: 1px solid #fff;
+    color: #000;
+    transition: all 0.2s ease;
+}
+
+.btn-white:hover{
+    background-color: rgb(236, 236, 236);
+    border-color: rgb(236, 236, 236);
+}
+
+.btn-black{
+    background-color: rgb(32, 35, 38);
+    border: 1px solid rgb(32, 35, 38);
+    color: #fff;
+    transition: all 0.2s ease;
+}
+
+.btn-black:hover{
+    background-color: rgb(28, 30, 31);
+    border-color: rgb(28, 30, 31);
+}
+
+.btn-violet{
+    background-color: rgb(118, 136, 212);
+    border: 1px solid rgb(118, 136, 212);
+    color: #fff;
+    transition: all 0.2s ease;
+}
+
+.btn-violet:hover{
+    background-color: rgb(103, 116, 173);
+    border-color: rgb(103, 116, 173);
+}
+
+.grow-1{
+    flex-grow: 1;
+}
+
+.container{
+    max-width: 1100px;
+    margin: auto;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.flex-row{
+    display: flex;
+    flex-flow: wrap row;
+}
+
+.flex-col{
+    display: flex;
+    flex-flow: wrap column;
+}
+
+.align-items-cent{
+    align-items: center;
+}
+
+.jstf-content-spacebet{
+    justify-content: space-between;
+}
+
+.jstf-content-cent{
+    justify-content: center;
+}
+
+.flex-dir{
+    flex-direction: row-reverse;
+}
+
+.bg-gray{
+    background-color: #EFEFEF;
+}
+
+.bg-white{
+    background-color: #FFF;
+}
+
+
+header{
+    padding: 10px 0px;
+    background-color: #255EE8;
+}
+
+nav .cl{
+    padding: 10px 5px;
+    min-width: 15%;
+}
+
+nav li{
+    list-style: none;
+}
+
+nav .menu-item a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#section01{
+    padding: 5% 25%;
+    background-image: url(../img/jumbo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#section01 .content{
+    min-height: 350px;
+    padding: 0px 80px;
+}
+
+#section01 .content h1{
+    font-size: 2.5em;
+    color: #fff;
+    margin-bottom: 3%;
+}
+
+#section01 .content p{
+    font-size: 1em;
+    color: #fff;
+    line-height: 1.5em;
+    margin-bottom: 4%;
+}
+
+.section-style{
+    padding: 40px 0px;
+}
+
+.section-style .right{
+    width: 40%;
+}
+
+.section-style .left{
+    width: 60%;
+}
+
+.section-style .right, .section-style .left{
+    min-height: 400px;
+    padding: 20px 20px;
+}
+
+.section-style .content .right{
+    padding: 0% 6%;
+    padding-top: 5%;
+}
+
+.section-style .right p, #section05 p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.4em;
+    color: rgb(36, 36, 36);
+}
+
+.section-style .right h2{
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 1.3em;
+    margin-bottom: 4%;
+    color: #000;
+}
+
+#section03{
+    margin-top: -5px;
+    margin-bottom: -5px;
+}
+
+#section05{
+    margin-top: -5px;
+}
+
+#section05 h2{
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 1.3em;
+    margin-bottom: 2%;
+    color: #000;
+}
+
+#section05 img{
+    width: 100%;
+}
+
+.rotate{
+    transform: rotate(180deg);
+}
+
+#section05 .content{
+    min-height: 750px;
+    padding-bottom: 4% ;
+}
+
+#section05 .star-bg{
+    background-image: url(../img/stars.svg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size:  345px;
+    padding: 20px 0px;
+}
+
+footer{
+    background-color: rgb(37, 39, 42);
+    padding-top: 4%;
+    padding-bottom: 0.8%;
+}
+
+footer .first .cl{
+    min-height: 350px;
+}
+
+footer .first .cl{
+    min-width: calc(100% / 6);
+}
+
+footer .second{
+    padding: 10px 0px;
+}
+
+footer .second .cl{
+    padding: 5px;
+}
+
+footer h3{
+    color: rgb(118, 136, 212);
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 5%;
+}
+
+footer .language-switcher{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 5%;
+}
+
+footer .social{
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+footer nav h4{
+    color: rgb(118, 136, 212);
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-bottom: 7%;
+}
+
+
+footer nav ul li{
+    margin-bottom: 5%;
+}
+
+footer hr{
+    margin: 15px 0px;
+}
+
+footer .language-switcher img{
+    width: 15px;
+    vertical-align: middle;
+    margin-right: 1%;
+
+}
+
+footer nav a{
+    color: #fff;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+
